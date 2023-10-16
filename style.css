@@ -1,0 +1,253 @@
+* {
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding-top: 30px;
+    font-size: 3rem;
+    color: white;
+}
+
+body {
+    background-color: #2c2a4d;
+    max-height: 100vh;
+}
+
+.piano {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 300px;
+    background: rgb(21, 21, 21);
+    border-radius: 10px;
+    border: 1px solid rg(255, 255, 255, 0.18);
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whiteKey {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+button {
+    padding: 0;
+    border: none;
+}
+
+.prvaTrecina {
+    width: 200px;
+    position: relative;
+}
+
+.drugaTrecina {
+    margin-left: 4px;
+    margin-right: 2px;
+    width: 250px;
+    position: relative;
+}
+
+.zadnje {
+    width: 200px;
+    position: relative;
+}
+
+.keys:active {
+    scale: 0.97;
+}
+
+.animation {
+    scale: 0.97;
+}
+
+.a {
+    width: 32%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.black {
+    padding-top: 75px;
+    color: rgb(101, 95, 95);
+}
+
+p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 145px;
+    color: rgb(140, 137, 137);
+}
+
+.s {
+    width: 32%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.d {
+    width: 32%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.f {
+    width: 23.5%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.g {
+    width: 23.5%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.h {
+    width: 23.5%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.j {
+    width: 23.5%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.k {
+    width: 32%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.l {
+    width: 32%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.č {
+    width: 32%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.w {
+    width: 15%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 52px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.e {
+    width: 15%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 120px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.t {
+    width: 12.5%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 47px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.y {
+    width: 12.5%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 108px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.u {
+    width: 12.5%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 171px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.o {
+    width: 15%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 52px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.p {
+    width: 15%;
+    height: 65%;
+    background: linear-gradient(to top, #393939 0%, black 100%);
+    cursor: pointer;
+    position: absolute;
+    margin-top: -186px;
+    margin-left: 120px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin-top: 60px;
+}
