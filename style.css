@@ -152,11 +152,14 @@ footer {
   body {
     scale: 0.4;
   }
+    h1 {
+    font-size: 2.8rem;
+  }
 }
 
 @media screen and (max-width: 390px) {
-  h1 {
-    font-size: 40px;
+   h1 {
+    font-size: 1.7rem;
   }
 
   body {
