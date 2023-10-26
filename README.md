@@ -19,6 +19,5 @@ Enjoy creating beautiful music! 🎹
 
 ## Screenshot
 ![piano image](https://github.com/BelmaKorlat/Piano/assets/137005711/2880b043-4bb2-4e5b-9f0a-9950ad935b71)
-![piano mobile](https://github.com/BelmaKorlat/Piano/assets/137005711/39a05dd9-c32f-4bff-8d6d-caa30c4bca76)
 
 
