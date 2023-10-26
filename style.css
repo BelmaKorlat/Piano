@@ -124,6 +124,7 @@ p {
 }
 
 footer {
+  border: 1px solid red;
   text-align: center;
   letter-spacing: 1px;
   font-size: 1.3rem;
@@ -152,13 +153,18 @@ footer {
   body {
     scale: 0.4;
   }
-    h1 {
+
+  h1 {
     font-size: 2.8rem;
+  }
+
+  footer {
+    width: 800px;
   }
 }
 
 @media screen and (max-width: 390px) {
-   h1 {
+  h1 {
     font-size: 1.7rem;
   }
 
